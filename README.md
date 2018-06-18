@@ -1,7 +1,8 @@
 # TNSRE2018
 
 This folder contains all the files necesary to execute the TV-IRF identification method proposed in 
-D.L Guarin and R.E. Kearney 'Unbiased Estimation of Human Joint Intrinsic
+
+Diego L. Guarin and Robert E. Kearney 'Unbiased Estimation of Human Joint Intrinsic
 Mechanical Properties during Movement'
 
 The folder includes two experimental data sets and the implementation of the proposed algorithms. 
