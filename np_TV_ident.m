@@ -48,6 +48,10 @@ end
 
 
 [Ns, trials]= size(X);
+%if there is only a single trial then data is not periodic
+if trials == 1
+    periodic = 'no';
+end
 
 if length(Y(:,1))~= Ns || length(Y(1,:))~= trials
     error('Input and output matrices should be of equal size')
